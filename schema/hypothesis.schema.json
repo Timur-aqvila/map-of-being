@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hypothesis or Edge in the Map of Being",
+  "type": "object",
+  "required": ["id", "source", "target", "status", "description"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Уникальный идентификатор ребра, например 'E8_RG_cycle'"
+    },
+    "source": {
+      "type": "string",
+      "description": "ID узла-источника"
+    },
+    "target": {
+      "type": "string",
+      "description": "ID узла-цели"
+    },
+    "label": {
+      "type": "string",
+      "description": "Краткое название связи"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["speculative", "testable", "established", "falsified"],
+      "description": "Текущий статус связи"
+    },
+    "description": {
+      "type": "string",
+      "description": "Подробное описание гипотезы"
+    },
+    "test": {
+      "type": "string",
+      "description": "Метод проверки (ссылка на протокол или описание)"
+    },
+    "probability": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 1,
+      "description": "Байесовская априорная или апостериорная оценка вероятности (опционально)"
+    },
+    "references": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Ссылки на публикации или данные"
+    }
+  }
+}
