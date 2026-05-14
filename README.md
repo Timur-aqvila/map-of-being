@@ -1,5 +1,3 @@
-# map-of-being
-Open falsification-first hypothesis graph. CC0.
 # 🗺️ Карта Бытия (Map of Being)
 
 > *Истина не живёт в учебниках. Она рождается в зазоре между ними.*
@@ -83,20 +81,3 @@ graph TD
     style DNA fill:#c8e6c9,stroke:#388e3c
     style Antimatter fill:#fff9c4,stroke:#fbc02d
     style Consciousness fill:#f3e5f5,stroke:#7b1fa2
-
-## Что внутри
-- JSON-схема для упаковки гипотез
-- Протоколы с фальсифицируемыми предсказаниями
-- Байесовский фильтр для оценки связей
-- Telegram-бот для приёма новых гипотез
-- Независимый аудит теорий о происхождении масс частиц
-
-## Лицензия
-Весь проект передан в общественное достояние (CC0).  
-Берите, форкайте, ломайте, улучшайте.
-
-## Как участвовать
-Смотри [`community/CONTRIBUTING.md`](community/CONTRIBUTING.md)
-
-## Контакты
-Через [Issues](https://github.com/Timur-aqvila/map-of-being/issues) этого репозитория.
