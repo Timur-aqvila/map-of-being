@@ -72,9 +72,11 @@ graph TD
     style Antimatter fill:#fff9c4,stroke:#fbc02d
     style Consciousness fill:#f3e5f5,stroke:#7b1fa2
 
-```markdown
+---
+
 ## 🎨 Язык цвета
 
+```markdown
 - 🔵 **Голубой** — математический факт (фундамент)
 - 🟡 **Жёлтый** — спекулятивная гипотеза (огонь интуиции)
 - 🟠 **Оранжевый** — тестируемый кластер (в процессе проверки)
