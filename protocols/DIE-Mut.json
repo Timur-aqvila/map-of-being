@@ -1,0 +1,26 @@
+{
+  "protocol_id": "DIE-Mut_1.0",
+  "title": "Deuterium Isotope Effect on spontaneous mutagenesis in E. coli",
+  "hypotheses": {
+    "H0": "mutation_rate_D2O == mutation_rate_H2O",
+    "H1": "mutation_rate_D2O != mutation_rate_H2O by factor >=1.5"
+  },
+  "strain": "E. coli K-12 MG1655",
+  "reporter": "rpoB RifR cluster",
+  "groups": {
+    "control": {"media": "M9-glucose-thiamine in H2O", "n_cultures": 110},
+    "experimental": {"media": "M9-glucose-thiamine in 20% D2O", "n_cultures": 110}
+  },
+  "procedure": {
+    "preculture": "1 ml, OD600~1.0",
+    "main_culture": "10 ul into 1 ml, incubation 24 h 37°C",
+    "plating": "concentrate 1 ml to 100 ul, plate on LB+Rif100",
+    "viable_count": "serial dilutions on LB"
+  },
+  "statistical_analysis": {
+    "primary_test": "Mann-Whitney two-sided alpha=0.01",
+    "confidence_interval": "bootstrap 99% CI for ratio of medians",
+    "sample_size_justification": "100 cultures per group for power 0.9 to detect 1.5-fold change"
+  },
+  "artefact_controls": ["growth_curve_comparison", "osmo-stress_arm_if_needed", "sequencing_of_mutants"]
+}
