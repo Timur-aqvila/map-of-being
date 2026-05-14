@@ -70,9 +70,8 @@ graph TD
     style Singh fill:#ffccbc,stroke:#e64a19
     style DNA fill:#c8e6c9,stroke:#388e3c
     style Antimatter fill:#fff9c4,stroke:#fbc02d
-    style Consciousness fill:#f3e5f5,stroke:#7b1fa2.
-
----
+    style Consciousness fill:#f3e5f5,stroke:#7b1fa2
+```
 
 ## 🎨 Язык цвета
 
